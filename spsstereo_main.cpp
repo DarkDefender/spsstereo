@@ -71,10 +71,10 @@ int main(int argc, char* argv[]) {
 	std::string outputBoundaryLabelFilename = outputBaseFilename + "_label.txt";
 
 	disparityImage.write(outputDisparityImageFilename);
-	segmentImage.write(outputSegmentImageFilename);
+	/*segmentImage.write(outputSegmentImageFilename);
 	segmentBoundaryImage.write(outputBoundaryImageFilename);
 	writeDisparityPlaneFile(disparityPlaneParameters, outputDisparityPlaneFilename);
-	writeBoundaryLabelFile(boundaryLabels, outputBoundaryLabelFilename);
+	writeBoundaryLabelFile(boundaryLabels, outputBoundaryLabelFilename);*/
 }
 
 
